@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- هذا السطر ضروري جدًا -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Test Media</title>
+
+  <style>
+    /* الافتراضي */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: gray;
+      color: white;
+      font-size: 30px;
+    }
+
+    /* من 666 */
+    @media (min-width: 666px) {
+      body {
+        background: yellow;
+        color: black;
+      }
+    }
+
+    /* من 1280 */
+    @media (min-width: 1280px) {
+      body {
+        background: red;
+        color: white;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  Media Query Test
+</body>
+</html>
