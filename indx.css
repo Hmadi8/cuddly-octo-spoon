@@ -26,9 +26,9 @@ body {
 
 .non {
   box-shadow: 7px 0px black;
-  height: 30em;
+  height: 34em;
   background: whitesmoke;
-  width: 80%;
+  width: 85%;
   height: 31em;
   border-radius: 20px;
   overflow: hidden;
@@ -222,3 +222,4 @@ body {
     align-items: center;
   }
 }
+
