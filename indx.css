@@ -78,8 +78,9 @@ body {
   /* لابتوب*/
 
   body {
-    background-color:#ecd387;
+    background-color: blue;
     height: 100vh;
+    /*ecd387*/
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -152,7 +153,7 @@ body {
 @media (min-width: 1280px) {
 
   body {
-    background: #f0c544;
+    background: red;
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -221,6 +222,7 @@ body {
     align-items: center;
   }
 }
+
 
 
 
