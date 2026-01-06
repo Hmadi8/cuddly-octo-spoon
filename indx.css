@@ -28,7 +28,7 @@ body {
   box-shadow: 7px 0px black;
   background: whitesmoke;
   width: 85%;
-  height: 35em;
+  height: 45rem;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -221,5 +221,6 @@ body {
     align-items: center;
   }
 }
+
 
 
